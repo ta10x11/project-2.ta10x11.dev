@@ -1,0 +1,203 @@
+.navbar-collapse {
+    justify-content: end;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    background: linear-gradient(to right, purple 5%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: rgb(196 255 222);
+}
+
+.bg-body-tertiary {
+    height: 4.2rem;
+    background: linear-gradient(to right, pink 5%, blue 100%);
+}
+
+.image {
+    background: url('images/back1.jpg') no-repeat;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.title-font {
+    background: linear-gradient(to right, rgb(61, 61, 114) 5%, rgb(64, 165, 108) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.6rem;
+
+}
+
+#imagehero {
+    width: 77%;
+    height: auto;
+}
+
+.form-control {
+    width: 140px;
+}
+
+.btn {
+    background: linear-gradient(to left, rgb(101, 208, 226) 15%, rgb(60, 178, 107) 100%);
+    width: 68px;
+    color: #ffffff;
+
+}
+
+.d-flex {
+    justify-content: center;
+}
+
+.flex {
+    align-items: center;
+}
+
+.flex>button {
+    height: 3rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(67, 101, 158) !important;
+    background: linear-gradient(to right, #123b89 25%, purple 100%);
+    color: white !important;
+}
+
+#tenx {
+    background: none;
+    -webkit-text-fill-color: black;
+    font-size: 2.1rem;
+    color: black;
+}
+
+#divtag {
+    height: 4px;
+    width: 56px;
+    background: black;
+    color: black;
+    margin-bottom: 35px;
+}
+
+#divtag1 {
+    height: 5px;
+    width: 5px;
+    background: black;
+    color: black;
+    margin-left: 60px;
+}
+
+.socialmedia>a {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: inline-grid;
+    width: 36px;
+    height: 36px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.socialmedia>a>i {
+    color: rgb(4, 53, 249);
+}
+
+#footerblack {
+    background: url('https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg?w=360') no-repeat !important;
+    background-size: cover !important;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+    color: #211558;
+}
+
+.linkedin {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background: rgb(40, 1, 36);
+}
+
+.linkedin>i {
+    background: linear-gradient(to right, rgb(117, 6, 214) 5%, rgb(186, 27, 214) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.shadow-xl:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);
+    background: #2c1b4b;
+    transition: all 1s ease;
+}
+
+#imagehero {
+    width: 77%;
+    height: auto;
+    margin-top: -44px;
+    margin-left: 84px;
+}
+
+.dummyimagest1 {
+    width: 62%;
+    height: 20em;
+    border-radius: 31px;
+    margin-left: 182px;
+}
+
+.cardsham {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(to right, rgb(61, 61, 114) 5%, rgb(64, 165, 108) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.w-1\/2 {
+    width: 108%;
+    margin-top: 21px;
+}
+
+.title-font {
+    background: linear-gradient(to right, rgb(61, 61, 114) 5%, rgb(64, 165, 108) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.6rem;
+}
+
+@media screen and (max-width:1279px) {
+
+
+    .allinoneseo {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .dummyimagest1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #imagehero {
+       display: none;
+    }
+}

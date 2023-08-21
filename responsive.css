@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+    .nav-link {
+        background: linear-gradient(to right, purple 25%, #0c1e1c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 18px;
+        background: #cbc9d4;
+        border: 2px solid #dee0eb;
+        border-radius: 20px;
+    }
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(105, 66, 117);
+}
+::-webkit-scrollbar-thumb{
+    background: blue;
+}
